@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "COD Bangladesh",
+    "slug": "cod-bangladesh-customer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "bd.com.cod.customer",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "bd.com.cod.customer",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/foreground.png",
+        "backgroundColor": "#075545"
+      }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/icon.png",
+          "imageWidth": 136,
+          "backgroundColor": "#075545"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification.png",
+          "color": "#075545",
+          "defaultChannel": "orders"
+        }
+      ],
+      "expo-secure-store"
+    ]
+  }
+}
