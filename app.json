@@ -38,6 +38,13 @@
         }
       ],
       "expo-secure-store"
-    ]
+    ],
+    "extra": {
+      "api": "https://www.cod.com.bd/api/v1/",
+      "eas": {
+        "projectId": "f0f9be68-e4ca-495c-b8b9-443b9e0aabe5"
+      }
+    },
+    "owner": "sumonapps"
   }
 }
